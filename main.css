@@ -36,7 +36,7 @@ section{
 section a{
     font-family:sans-serif;
     /* border:  rgb(180, 153, 153); */
-    padding: 5px;
+    padding: 2px 28px;
     margin: 4px;
     color: rgb(0, 0, 0);
     border-bottom: rgb(227, 227, 227);
