@@ -38,7 +38,7 @@ section a{
     font-family:sans-serif;
     /* border:  rgb(180, 153, 153); */
     padding: 2px 28px;
-    margin: 4px;
+    /* margin: 4px; */
     color: rgb(0, 0, 0);
     border-bottom: rgb(227, 227, 227);
     animation: pisca 1.5s infinite;
@@ -55,12 +55,12 @@ section li a{
     border-radius: 8px;
     border: solid;
     border-color: rgb(255, 255, 255);
+    margin: 2px 10px;
 }
 
 footer{
    margin: 10px;
 }
-
   
   /* Estilos específicos para a versão desktop (largura a partir de 767px) */
   @media only screen and (min-width: 767px) {
@@ -71,7 +71,7 @@ footer{
 
     .banner2 img{
         height: 100px;
-        margin: 10px 500px;
+        margin: 1px 500px;
         border-radius: 20px;
         
     }
