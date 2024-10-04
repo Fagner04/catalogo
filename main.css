@@ -23,7 +23,7 @@ header{
     display: flex;
     align-items: center;
 }
- li ,a{
+ section li ,a{
     display: flex;
     text-decoration: none;
     margin: 1px 10px ;
@@ -45,15 +45,13 @@ section a{
     box-shadow: 0px 0px 1px 1px #ff6c6c;
 }
 
-a:hover{
+section a:hover{
     animation: pisca 1.5s infinite;
     box-shadow: 0px 0px 8px 1px #403737;
 }
-img {height: 7rem;
-    border-radius: 26rem;
-}
 
-li a{
+
+section li a{
     border-radius: 8px;
     border: solid;
     border-color: rgb(255, 255, 255);
@@ -62,3 +60,33 @@ li a{
 footer{
    margin: 10px;
 }
+
+  
+  /* Estilos específicos para a versão desktop (largura a partir de 767px) */
+  @media only screen and (min-width: 767px) {
+    .mobile-banner {
+      display: none;
+
+    }
+
+    .banner2 img{
+        height: 100px;
+        margin: 10px 500px;
+        border-radius: 20px;
+        
+    }
+
+ 
+  }
+  /* Estilos específicos para a versão móvel (largura menor que 767px) */
+  @media only screen and (max-width: 766px) {
+    .desktop-banner {
+      display: none;
+     }
+
+     .banner2 img {
+        height: 80px;
+        border-radius: 20px;
+        margin: auto;
+     }
+    }
