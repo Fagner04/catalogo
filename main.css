@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 header{
     margin: 10px;
 }
@@ -56,10 +57,6 @@ section li a{
     border: solid;
     border-color: rgb(255, 255, 255);
     margin: 2px 10px;
-}
-
-footer{
-   margin: 10px;
 }
   
   /* Estilos específicos para a versão desktop (largura a partir de 767px) */
