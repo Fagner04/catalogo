@@ -19,11 +19,12 @@ header{
     border: 0px;
 }
 
-.container, section{
+.container, section
+,.banner2{
     flex-direction: column;
     display: flex;
     align-items: center;
-}
+ }
  section li ,a{
     display: flex;
     text-decoration: none;
@@ -66,15 +67,16 @@ section li a{
 
     }
 
+    }
+
     .banner2 img{
         height: 100px;
         margin: 1px 500px;
-        border-radius: 20px;
-        
+        border-radius: 20px;  
     }
 
- 
-  }
+   
+
   /* Estilos específicos para a versão móvel (largura menor que 767px) */
   @media only screen and (max-width: 766px) {
     .desktop-banner {
